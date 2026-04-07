@@ -1,6 +1,6 @@
 context:
   name: certbot-dns-nsone
-  version: "5.4.0"
+  version: "5.5.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: cdbb5aeb49822409e00b4b461ee6975b08e38d9c6fcd272829f7e83e30d51b58
+  sha256: eefc1c6893ffbd0a3f15b3f830abd89d25de1c1ae0928d435a684dd955ae75e3
 
 build:
   noarch: python
